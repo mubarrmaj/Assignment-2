@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="top">
+            <h1>Assignment 2</h1>
+            <p>In this page we will explore about <b>lists</b>, <b>table</b> and <b>forms.</b> So let's begin....</p>
+        </div>
+        <section class="sec1">
+            <div class="container" id="unOrderedList">
+                <h2>Un-Ordered List</h2>
+                <p>Following is the Un-Ordered list. We will use different list-style for different list items.</p>
+                <ul>
+                    <li style="list-style:circle">list Item 1</li>
+                    <li style="list-style:disc">Item 2</li>
+                    <li style="list-style:square">item 3</li>
+                    <li style="list-style:none">Item 4</li>
+                </ul>
+            </div>
+            <div class="container" id="OrderedList">
+                <h2>Ordered List</h2>
+                <p>Following is the Ordered list. We will use different type of the list item marker for different
+                    list items.</p>
+                <ol>
+                    <li type="1">list Item 1</li>
+                    <li type="A">Item 2</li>
+                    <li type="a">item 3</li>
+                    <li type="I">Item 4</li>
+                    <li type="i">Item 5</li>
+                </ol>
+            </div>
+            <div class="container" id="descriptionList">
+                <h2>Description List</h2>
+                <p>In description list, we have terms and their description.</p>
+                <dl>
+                    <dt>term 1</dt>
+                    <dd>-description 1</dd>
+                    <dt>term 2</dt>
+                    <dd>-description 2</dd>
+                    <dt>term 3</dt>
+                    <dd>-description 3</dd>
+                </dl>
+            </div>
+            <div class="container" id="idTable">
+                <h2>Table</h2>
+                <p>In table, we have heading, row and table data.</p>
+                <table>
+                    <tr>
+                        <th>Heading 1</th>
+                        <th>Heading 2</th>
+                    </tr>
+                    <tr>
+                        <td>Data 11</td>
+                        <td>Data 12</td>
+                    </tr>
+                    <tr>
+                        <td>Data 21</td>
+                        <td>Data 22</td>
+                    </tr>
+                    <tr>
+                        <td>Data 31</td>
+                        <td>Data 32</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <div id="form">
+            <h2>Contact Form</h2>
+            <form action="">
+                <lable for="fname">First Name:</lable><br>
+                <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+                <lable for="lname">Last Name:</lable><br>
+                <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+                <lable for="userName">User Name:</lable><br>
+                <input type="text" id="userName" name="userName" placeholder="Enter username"><br>
+                <lable for="password">Enter Password:</lable><br>
+                <input type="password" id="password" name="password" placeholder="Enter password"><br>
+                <lable for="email">Email:</lable><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+                <lable for="phoneNumber">Phone No:</lable><br>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number"><br>
+                <lable for="website">Website Link:</lable><br>
+                <input type="url" id="website" name="website" placeholder="Your website link"><br><br>
+                <lable for="dateOfBirth">Date Of Birth:</lable>
+                <input type="date" id="dateOfBirth" name="dateOfBirth">
+                <p style="display:inline-block; margin: 0px 50px;">Choose Your favourite language:</p>
+                <input type="radio" id="html" name="fav-language">
+                <lable for="html">Html</lable>
+                <input type="radio" id="css" name="fav-language">
+                <lable for="css">CSS</lable>
+                <input type="radio" id="Javascript" name="fav-language">
+                <lable for="Javascript">Html</lable><br><br>
+                <p style="display: inline-block;">On Which device you write your code?</p>
+                <input type="checkbox" id="mobile" name="device">
+                <lable for="mobile">I have a Mobile</lable>
+                <input type="checkbox" id="laptop" name="device">
+                <lable for="laptop">I have a laptop</lable>
+                <input type="checkbox" id="pc" name="device">
+                <lable for="pc">I have a PC</lable><br><br>
+                <label for="message">Your Message:</label><br>
+                <input type="text" id="message" name="message" placeholder="Type your message...">
+
+                <br><br>
+                <div id="btn">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
